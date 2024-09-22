@@ -1,0 +1,41 @@
+self.__BUILD_MANIFEST = function(s, a, c) {
+    return {
+        __rewrites: {
+            afterFiles: [],
+            beforeFiles: [],
+            fallback: []
+        },
+        "/": ["static/chunks/pages/index-5e288ed3e2178ae1.js"],
+        "/404": ["static/chunks/pages/404-d7fc5897e13708d8.js"],
+        "/_error": ["static/chunks/pages/_error-b79b6da4565d76ee.js"],
+        "/aipin": ["static/chunks/fec7f76b-d2cd774dee737128.js", "static/chunks/254-17102fd4f413f9b2.js", "static/css/dadce6107cbc0bf4.css", "static/chunks/pages/aipin-57f07f594363c0d9.js"],
+        "/aipin/cosmos": ["static/css/3d6ee36abcbaabc0.css", "static/chunks/pages/aipin/cosmos-777a8e42e7916be6.js"],
+        "/aipin/features": ["static/chunks/pages/aipin/features-4694f5f6f98255ce.js"],
+        "/aipin/lasersafety": ["static/css/281d7ab34ef64c31.css", "static/chunks/pages/aipin/lasersafety-7b3944c60c30de41.js"],
+        "/aipin/tech-details": ["static/chunks/294-8d1581b571bc1166.js", "static/css/f39ca6137a41d04d.css", "static/chunks/pages/aipin/tech-details-91a3d041b221840a.js"],
+        "/aipin/trust": ["static/css/31e243fa59bd399b.css", "static/chunks/pages/aipin/trust-dd7325e63fcaa937.js"],
+        "/changelog": ["static/css/7166159be1f52625.css", "static/chunks/pages/changelog-7481eda24a46d3e3.js"],
+        "/jobs": ["static/chunks/pages/jobs-a7dd58ad7b3f99fc.js"],
+        "/jobs/[id]": ["static/chunks/pages/jobs/[id]-71e55a23ae3bb773.js"],
+        "/legal/notices": ["static/chunks/pages/legal/notices-fc7c4e6f34a65bdc.js"],
+        "/legal/privacy-policy": ["static/chunks/pages/legal/privacy-policy-8c4e4355031fb9d6.js"],
+        "/legal/subscription-terms": ["static/chunks/pages/legal/subscription-terms-e9332fa64ea234d8.js"],
+        "/legal/terms-of-use": ["static/chunks/pages/legal/terms-of-use-fce7f9a5eeaee032.js"],
+        "/media": ["static/chunks/pages/media-ce67db1275e4ba37.js"],
+        "/media/[uid]": ["static/chunks/pages/media/[uid]-65d38383956b201b.js"],
+        "/mission": ["static/chunks/pages/mission-e71fd37f85293e92.js"],
+        "/return-policy": ["static/chunks/pages/return-policy-6650ae4f41c0979e.js"],
+        "/shop/product/[handle]": [s, a, "static/css/06d8d720ee82f8ab.css", "static/chunks/pages/shop/product/[handle]-6ea5d023bb4ed173.js"],
+        "/shop/summary": [s, "static/css/e3170d42d11c7d02.css", "static/chunks/pages/shop/summary-0b8c63d4a5bed502.js"],
+        "/shop/[[...slug]]": ["static/chunks/845-e353e1d79d2aab6e.js", s, a, c, "static/css/8ddf97facbff2f1e.css", "static/chunks/pages/shop/[[...slug]]-8518b3e79f86ccc7.js"],
+        "/slice-simulator": ["static/chunks/77-b038444d9a6eae21.js", "static/chunks/pages/slice-simulator-14eacf0fa9d3ae4c.js"],
+        "/story": ["static/chunks/pages/story-1a739b5281a1712b.js"],
+        "/subscribe": ["static/chunks/pages/subscribe-9b54cf5fe35df99d.js"],
+        "/subscribe-thankyou": ["static/chunks/pages/subscribe-thankyou-58e3064fe4b15d70.js"],
+        "/subscription": [c, "static/css/b590a3bd25f0003b.css", "static/chunks/pages/subscription-ecd63210c66b855d.js"],
+        "/team": ["static/chunks/pages/team-725fc026dc0e7237.js"],
+        "/testing-tools": ["static/css/ad5f2dbbb0ec94be.css", "static/chunks/pages/testing-tools-3dbcb00401b71ba9.js"],
+        "/warranty": ["static/chunks/pages/warranty-6444c42181a9082f.js"],
+        sortedPages: ["/", "/404", "/_app", "/_error", "/aipin", "/aipin/cosmos", "/aipin/features", "/aipin/lasersafety", "/aipin/tech-details", "/aipin/trust", "/changelog", "/jobs", "/jobs/[id]", "/legal/notices", "/legal/privacy-policy", "/legal/subscription-terms", "/legal/terms-of-use", "/media", "/media/[uid]", "/mission", "/return-policy", "/shop/product/[handle]", "/shop/summary", "/shop/[[...slug]]", "/slice-simulator", "/story", "/subscribe", "/subscribe-thankyou", "/subscription", "/team", "/testing-tools", "/warranty"]
+    }
+}("static/chunks/416-b7959bb816695bef.js", "static/chunks/695-b5143ce561ab525b.js", "static/chunks/737-f736cdf72881c817.js"), self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB();
